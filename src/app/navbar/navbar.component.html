@@ -1,0 +1,20 @@
+<div id="navDiv">
+    <div>
+        <img src="assets/logo.png" width="150px">
+    </div>
+     <div class="linkovi">
+        <ul>
+            <li><a [routerLink]="['/home']" >Home</a></li>
+            <li><a [routerLink]="['/about']">About</a></li>
+            <li><a [routerLink]="['/shop']">Shop</a></li>
+            <li><a [routerLink]="['/contact']">Contact</a></li>
+        </ul>
+    </div>
+    <div>
+        <a [routerLink]="['/login']">
+            <span class="logIn">Log in</span>
+            <img class="logIn" src="assets/login.png" width="30px" alt="Login icon">
+        </a>    
+        <a [routerLink]="['/cart']"><img src="assets/shoppingCart.jpg" width="80px" alt="Shopping cart"></a>
+    </div>
+</div>

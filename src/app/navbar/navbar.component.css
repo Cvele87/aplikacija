@@ -1,0 +1,40 @@
+#navDiv{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 5px;
+    border-bottom: 5px solid rgb(194, 193, 187);
+    z-index: 9998;
+}
+.linkovi{
+    height: 5em;
+    display: flex;
+    align-items: flex-end;
+}
+ul{
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+}
+li{
+    display: inline;
+    margin:0px 10px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.logIn{
+    font-weight: bold;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
